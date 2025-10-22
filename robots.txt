@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.rimal-realestate.com/sitemap.xml
+
