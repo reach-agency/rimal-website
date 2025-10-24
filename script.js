@@ -706,6 +706,126 @@ lightbox.addEventListener('click', (e) => {
 // ==================== Contact Form ====================
 const contactForm = document.getElementById('contactForm');
 
+contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // Create and show loading message
+    const loadingMessage = document.createElement('div');
+    loadingMessage.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(135deg, #1F3A4D 0%, #4EC3E0 100%);
+        color: white;
+        padding: 30px 50px;
+        border-radius: 20px;
+        box-shadow: 0 16px 48px rgba(31, 58, 77, 0.3);
+        text-align: center;
+        z-index: 10000;
+        animation: fadeInUp 0.5s ease;
+    `;
+
+    loadingMessage.innerHTML = `
+        <i class="fas fa-spinner fa-spin" style="font-size: 48px; margin-bottom: 15px;"></i>
+        <h3 style="font-size: 24px; margin-bottom: 10px;">جاري إرسال الرسالة...</h3>
+    `;
+
+    document.body.appendChild(loadingMessage);
+
+    try {
+        // Get form data
+        const formData = new FormData(contactForm);
+
+        // Submit the form
+        const response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+
+        // Remove loading message
+        document.body.removeChild(loadingMessage);
+
+        // Show success message
+        const successMessage = document.createElement('div');
+        successMessage.style.cssText = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(135deg, #1F3A4D 0%, #4EC3E0 100%);
+            color: white;
+            padding: 30px 50px;
+            border-radius: 20px;
+            box-shadow: 0 16px 48px rgba(31, 58, 77, 0.3);
+            text-align: center;
+            z-index: 10000;
+            animation: fadeInUp 0.5s ease;
+        `;
+
+        successMessage.innerHTML = `
+            <i class="fas fa-check-circle" style="font-size: 48px; margin-bottom: 15px;"></i>
+            <h3 style="font-size: 24px; margin-bottom: 10px;">تم الإرسال بنجاح!</h3>
+            <p style="font-size: 16px; opacity: 0.9;">شكراً لتواصلك معنا. سنرد عليك في أقرب وقت ممكن.</p>
+        `;
+
+        document.body.appendChild(successMessage);
+
+        // Remove success message after 4 seconds
+        setTimeout(() => {
+            successMessage.style.opacity = '0';
+            successMessage.style.transform = 'translate(-50%, -50%) translateY(-20px)';
+            setTimeout(() => {
+                document.body.removeChild(successMessage);
+            }, 300);
+        }, 4000);
+
+        // Reset form
+        contactForm.reset();
+
+    } catch (error) {
+        // Remove loading message
+        document.body.removeChild(loadingMessage);
+
+        // Show error message
+        const errorMessage = document.createElement('div');
+        errorMessage.style.cssText = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(135deg, #ff3b3b 0%, #dc1c1c 100%);
+            color: white;
+            padding: 30px 50px;
+            border-radius: 20px;
+            box-shadow: 0 16px 48px rgba(31, 58, 77, 0.3);
+            text-align: center;
+            z-index: 10000;
+            animation: fadeInUp 0.5s ease;
+        `;
+
+        errorMessage.innerHTML = `
+            <i class="fas fa-exclamation-circle" style="font-size: 48px; margin-bottom: 15px;"></i>
+            <h3 style="font-size: 24px; margin-bottom: 10px;">حدث خطأ!</h3>
+            <p style="font-size: 16px; opacity: 0.9;">عذراً، حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة مرة أخرى.</p>
+        `;
+
+        document.body.appendChild(errorMessage);
+
+        // Remove error message after 4 seconds
+        setTimeout(() => {
+            errorMessage.style.opacity = '0';
+            errorMessage.style.transform = 'translate(-50%, -50%) translateY(-20px)';
+            setTimeout(() => {
+                document.body.removeChild(errorMessage);
+            }, 300);
+        }, 4000);
+    }
+});
+
 // Form input animations
 const formInputs = document.querySelectorAll('.form-group input, .form-group textarea');
 
