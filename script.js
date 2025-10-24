@@ -9,11 +9,11 @@ const translations = {
         nav_services: 'خدماتنا',
         nav_projects: 'مشاريعنا',
         nav_contact: 'تواصل معنا',
-        
+
         // Logo
         logo_text: 'رمال',
         logo_subtext: 'للاستثمار والتطوير العقاري',
-        
+
         // Hero Section
         hero_slogan: 'شريكك الموثوق في التطوير العقاري بدمياط الجديدة',
         hero_description: 'نوفر حلول عقارية مبتكرة تناسب جميع احتياجات عملائنا',
@@ -21,13 +21,13 @@ const translations = {
         hero_feature_1: 'موثوقية',
         hero_feature_2: 'ابتكار',
         hero_feature_3: 'جودة',
-        
+
         // Stats
         stat_1: 'سنوات من الخبرة',
         stat_2: 'مشروع مكتمل',
         stat_3: 'عميل سعيد',
         stat_4: '% نسبة الرضا',
-        
+
         // About Section
         about_label: 'من نحن',
         about_title: 'رمال للاستثمار والتطوير العقاري',
@@ -40,7 +40,7 @@ const translations = {
         value_2_desc: 'نستخدم أحدث التقنيات والحلول لتقديم خدمات عقارية متميزة',
         value_3_title: 'الجودة',
         value_3_desc: 'نلتزم بأعلى معايير الجودة في جميع مشاريعنا وخدماتنا',
-        
+
         // CEO Section
         ceo_label: 'القيادة',
         ceo_title: 'مؤسس الشركة',
@@ -56,13 +56,13 @@ const translations = {
         ceo_achievements_title: 'الإنجازات',
         ceo_achievements_desc: 'شارك في تنفيذ أكثر من 200 مشروع عقاري متنوع بين السكني والتجاري والإداري والطبي، مع الاهتمام بالجودة العالية والتصميم المتميز واختيار المواقع الاستراتيجية',
         ceo_quote: '"نؤمن بأن النجاح الحقيقي يأتي من بناء علاقات طويلة الأمد مع عملائنا وتقديم قيمة حقيقية في كل مشروع"',
-        
+
         // Gallery Section
         gallery_label: 'معرض الصور',
         gallery_title: 'استكشف مشاريعنا المتميزة',
         gallery_description: 'تصفح مجموعة من أفضل التصاميم والمشاريع العقارية',
         gallery_hint: 'اسحب لرؤية المزيد',
-        
+
         // Services Section
         services_label: 'خدماتنا',
         services_title: 'ما نقدمه لعملائنا',
@@ -97,7 +97,7 @@ const translations = {
         service_6_feat_1: 'خبراء متخصصون',
         service_6_feat_2: 'تحليل السوق',
         service_6_feat_3: 'إرشادات قانونية',
-        
+
         // Projects Section
         projects_label: 'مشاريعنا',
         projects_title: 'أحدث المشاريع العقارية',
@@ -118,7 +118,7 @@ const translations = {
         project_5_location: 'موقع استراتيجي',
         project_6_title: 'فيلات فاخرة',
         project_6_location: 'تصميم عصري',
-        
+
         // Contact Section
         contact_label: 'تواصل معنا',
         contact_title: 'ابدأ رحلتك العقارية معنا',
@@ -136,7 +136,7 @@ const translations = {
         form_submit: 'إرسال الرسالة',
         form_success_title: 'تم الإرسال بنجاح!',
         form_success_message: 'شكراً لتواصلك معنا. سنرد عليك في أقرب وقت ممكن.',
-        
+
         // Footer
         footer_description: 'شريكك الموثوق في التطوير العقاري بدمياط الجديدة. نقدم حلول عقارية مبتكرة تناسب جميع احتياجات عملائنا.',
         footer_quick_links: 'روابط سريعة',
@@ -157,11 +157,11 @@ const translations = {
         nav_services: 'Services',
         nav_projects: 'Projects',
         nav_contact: 'Contact Us',
-        
+
         // Logo
         logo_text: 'RIMAL',
         logo_subtext: 'Real Estate Investment & Development',
-        
+
         // Hero Section
         hero_slogan: 'Your Trusted Partner in Real Estate Development in New Damietta',
         hero_description: 'We provide innovative real estate solutions that meet all our clients\' needs',
@@ -169,13 +169,13 @@ const translations = {
         hero_feature_1: 'Reliability',
         hero_feature_2: 'Innovation',
         hero_feature_3: 'Quality',
-        
+
         // Stats
         stat_1: 'Years of Experience',
         stat_2: 'Completed Projects',
         stat_3: 'Happy Clients',
         stat_4: '% Satisfaction Rate',
-        
+
         // About Section
         about_label: 'About Us',
         about_title: 'RIMAL Real Estate Investment & Development',
@@ -188,7 +188,7 @@ const translations = {
         value_2_desc: 'We use the latest technologies and solutions to provide exceptional real estate services',
         value_3_title: 'Quality',
         value_3_desc: 'We commit to the highest quality standards in all our projects and services',
-        
+
         // CEO Section
         ceo_label: 'Leadership',
         ceo_title: 'Company Founder',
@@ -204,13 +204,13 @@ const translations = {
         ceo_achievements_title: 'Achievements',
         ceo_achievements_desc: 'Participated in the implementation of more than 200 diverse real estate projects including residential, commercial, administrative, and medical, with attention to high quality, distinctive design, and strategic location selection',
         ceo_quote: '"We believe that true success comes from building long-term relationships with our clients and delivering real value in every project"',
-        
+
         // Gallery Section
         gallery_label: 'Gallery',
         gallery_title: 'Explore Our Distinctive Projects',
         gallery_description: 'Browse a collection of the best designs and real estate projects',
         gallery_hint: 'Swipe to see more',
-        
+
         // Services Section
         services_label: 'Our Services',
         services_title: 'What We Offer Our Clients',
@@ -245,7 +245,7 @@ const translations = {
         service_6_feat_1: 'Specialized experts',
         service_6_feat_2: 'Market analysis',
         service_6_feat_3: 'Legal guidance',
-        
+
         // Projects Section
         projects_label: 'Our Projects',
         projects_title: 'Latest Real Estate Projects',
@@ -266,7 +266,7 @@ const translations = {
         project_5_location: 'Strategic Location',
         project_6_title: 'Luxury Villas',
         project_6_location: 'Modern Design',
-        
+
         // Contact Section
         contact_label: 'Contact Us',
         contact_title: 'Start Your Real Estate Journey With Us',
@@ -284,7 +284,7 @@ const translations = {
         form_submit: 'Send Message',
         form_success_title: 'Successfully Sent!',
         form_success_message: 'Thank you for contacting us. We will respond to you as soon as possible.',
-        
+
         // Footer
         footer_description: 'Your trusted partner in real estate development in New Damietta. We provide innovative real estate solutions that meet all our clients\' needs.',
         footer_quick_links: 'Quick Links',
@@ -305,11 +305,11 @@ let currentLang = localStorage.getItem('language') || 'ar';
 function switchLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('language', lang);
-    
+
     // Update HTML lang and dir attributes
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
-    
+
     // Update all elements with data-lang-key
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
@@ -317,13 +317,13 @@ function switchLanguage(lang) {
             element.innerHTML = translations[lang][key];
         }
     });
-    
+
     // Update language switcher button text
     const currentLangSpan = document.getElementById('currentLang');
     if (currentLangSpan) {
         currentLangSpan.textContent = lang === 'ar' ? 'EN' : 'ع';
     }
-    
+
     // Update form success message translation
     updateFormSuccessMessages(lang);
 }
@@ -337,7 +337,7 @@ function updateFormSuccessMessages(lang) {
 // Initialize language on page load
 document.addEventListener('DOMContentLoaded', () => {
     switchLanguage(currentLang);
-    
+
     // Language switcher button event
     const langSwitcher = document.getElementById('langSwitcher');
     if (langSwitcher) {
@@ -380,13 +380,13 @@ const sections = document.querySelectorAll('section[id]');
 
 function activateNavLink() {
     const scrollY = window.pageYOffset;
-    
+
     sections.forEach(section => {
         const sectionHeight = section.offsetHeight;
         const sectionTop = section.offsetTop - 100;
         const sectionId = section.getAttribute('id');
         const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
-        
+
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             navLinks.forEach(link => link.classList.remove('active'));
             if (navLink) {
@@ -400,10 +400,10 @@ window.addEventListener('scroll', activateNavLink);
 
 // ==================== Smooth Scrolling ====================
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+    anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
-        
+
         if (target) {
             const offsetTop = target.offsetTop - 80;
             window.scrollTo({
@@ -423,16 +423,16 @@ function animateCounters() {
     const statsSectionTop = statsSection.offsetTop;
     const statsSectionHeight = statsSection.offsetHeight;
     const scrollY = window.pageYOffset;
-    
-    if (scrollY > statsSectionTop - window.innerHeight / 2 && 
-        scrollY < statsSectionTop + statsSectionHeight && 
+
+    if (scrollY > statsSectionTop - window.innerHeight / 2 &&
+        scrollY < statsSectionTop + statsSectionHeight &&
         !counted) {
-        
+
         statNumbers.forEach(stat => {
             const target = parseInt(stat.getAttribute('data-target'));
             const increment = target / 100;
             let current = 0;
-            
+
             const updateCounter = () => {
                 current += increment;
                 if (current < target) {
@@ -442,10 +442,10 @@ function animateCounters() {
                     stat.textContent = target;
                 }
             };
-            
+
             updateCounter();
         });
-        
+
         counted = true;
     }
 }
@@ -455,11 +455,11 @@ window.addEventListener('scroll', animateCounters);
 // ==================== Scroll Reveal Animation ====================
 function revealOnScroll() {
     const elements = document.querySelectorAll('.section-header, .service-card, .project-card, .value-card, .stat-card, .about-text, .about-image, .contact-card, .contact-form-wrapper');
-    
+
     elements.forEach(element => {
         const elementTop = element.getBoundingClientRect().top;
         const elementVisible = 150;
-        
+
         if (elementTop < window.innerHeight - elementVisible) {
             element.classList.add('fade-in');
         }
@@ -473,26 +473,26 @@ window.addEventListener('load', revealOnScroll);
 function animateCEOSection() {
     const ceoSection = document.querySelector('.ceo-section');
     if (!ceoSection) return;
-    
+
     const ceoImageWrapper = document.querySelector('.ceo-image-wrapper');
     const ceoInfo = document.querySelector('.ceo-info');
     const ceoDetailCards = document.querySelectorAll('.ceo-detail-card');
     const ceoQuote = document.querySelector('.ceo-quote');
-    
+
     const sectionTop = ceoSection.getBoundingClientRect().top;
     const triggerPoint = window.innerHeight * 0.75;
-    
+
     if (sectionTop < triggerPoint) {
         // Animate image wrapper
         if (ceoImageWrapper && !ceoImageWrapper.classList.contains('animate-slide-in-right')) {
             ceoImageWrapper.classList.add('animate-slide-in-right');
         }
-        
+
         // Animate info section
         if (ceoInfo && !ceoInfo.classList.contains('animate-slide-in-left')) {
             ceoInfo.classList.add('animate-slide-in-left');
         }
-        
+
         // Animate detail cards with stagger
         ceoDetailCards.forEach((card, index) => {
             if (!card.classList.contains('animate-fade-in-up')) {
@@ -501,7 +501,7 @@ function animateCEOSection() {
                 }, index * 150);
             }
         });
-        
+
         // Animate quote
         if (ceoQuote && !ceoQuote.classList.contains('animate-fade-in-up')) {
             setTimeout(() => {
@@ -524,9 +524,9 @@ filterBtns.forEach(btn => {
         filterBtns.forEach(b => b.classList.remove('active'));
         // Add active class to clicked button
         btn.classList.add('active');
-        
+
         const filter = btn.getAttribute('data-filter');
-        
+
         projectCards.forEach(card => {
             if (filter === 'all') {
                 card.style.display = 'block';
@@ -669,19 +669,19 @@ function closeLightbox() {
 
 function changeImage(direction) {
     currentImageIndex += direction;
-    
+
     // Check which images array to use based on current image
     const currentSrc = lightboxImg.src;
     const isGalleryImage = galleryImages.some(img => currentSrc.includes(img));
     const imagesArray = isGalleryImage ? galleryImages : projectImages;
-    
+
     // Loop back to start/end
     if (currentImageIndex < 0) {
         currentImageIndex = imagesArray.length - 1;
     } else if (currentImageIndex >= imagesArray.length) {
         currentImageIndex = 0;
     }
-    
+
     lightboxImg.src = imagesArray[currentImageIndex];
 }
 
@@ -706,59 +706,6 @@ lightbox.addEventListener('click', (e) => {
 // ==================== Contact Form ====================
 const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Get form values
-    const name = document.getElementById('name').value;
-    const phone = document.getElementById('phone').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-    
-    // Here you would typically send the data to a server
-    // For now, we'll just show a success message
-    
-    // Create success message
-    const successMessage = document.createElement('div');
-    successMessage.style.cssText = `
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: linear-gradient(135deg, #1F3A4D 0%, #4EC3E0 100%);
-        color: white;
-        padding: 30px 50px;
-        border-radius: 20px;
-        box-shadow: 0 16px 48px rgba(31, 58, 77, 0.3);
-        text-align: center;
-        z-index: 10000;
-        animation: fadeInUp 0.5s ease;
-    `;
-    
-    successMessage.innerHTML = `
-        <i class="fas fa-check-circle" style="font-size: 48px; margin-bottom: 15px;"></i>
-        <h3 style="font-size: 24px; margin-bottom: 10px;">${window.formSuccessTitle || 'تم الإرسال بنجاح!'}</h3>
-        <p style="font-size: 16px; opacity: 0.9;">${window.formSuccessMessage || 'شكراً لتواصلك معنا. سنرد عليك في أقرب وقت ممكن.'}</p>
-    `;
-    
-    document.body.appendChild(successMessage);
-    
-    // Remove message after 4 seconds
-    setTimeout(() => {
-        successMessage.style.opacity = '0';
-        successMessage.style.transform = 'translate(-50%, -50%) translateY(-20px)';
-        setTimeout(() => {
-            document.body.removeChild(successMessage);
-        }, 300);
-    }, 4000);
-    
-    // Reset form
-    contactForm.reset();
-    
-    // Log form data (in production, send to server)
-    console.log('Form submitted:', { name, phone, email, message });
-});
-
 // Form input animations
 const formInputs = document.querySelectorAll('.form-group input, .form-group textarea');
 
@@ -766,7 +713,7 @@ formInputs.forEach(input => {
     input.addEventListener('focus', () => {
         input.parentElement.querySelector('i').style.color = '#4EC3E0';
     });
-    
+
     input.addEventListener('blur', () => {
         if (!input.value) {
             input.parentElement.querySelector('i').style.color = '#8B9DAF';
@@ -803,7 +750,7 @@ serviceCards.forEach(card => {
             }
         });
     });
-    
+
     card.addEventListener('mouseleave', () => {
         serviceCards.forEach(c => {
             c.style.opacity = '1';
@@ -816,7 +763,7 @@ window.addEventListener('scroll', () => {
     const hero = document.querySelector('.hero');
     const scrolled = window.pageYOffset;
     const heroPattern = document.querySelector('.hero-pattern');
-    
+
     if (hero && heroPattern) {
         heroPattern.style.transform = `translateY(${scrolled * 0.5}px)`;
     }
@@ -856,12 +803,12 @@ lightbox.addEventListener('touchend', (e) => {
 
 function handleSwipe() {
     const swipeThreshold = 50;
-    
+
     if (touchEndX < touchStartX - swipeThreshold) {
         // Swipe left - next image (in RTL)
         changeImage(1);
     }
-    
+
     if (touchEndX > touchStartX + swipeThreshold) {
         // Swipe right - previous image (in RTL)
         changeImage(-1);
@@ -893,17 +840,17 @@ function createWhatsAppButton() {
         transition: all 0.3s ease;
         text-decoration: none;
     `;
-    
+
     whatsappBtn.addEventListener('mouseenter', () => {
         whatsappBtn.style.transform = 'scale(1.1) translateY(-5px)';
         whatsappBtn.style.boxShadow = '0 12px 40px rgba(31, 58, 77, 0.3)';
     });
-    
+
     whatsappBtn.addEventListener('mouseleave', () => {
         whatsappBtn.style.transform = 'scale(1) translateY(0)';
         whatsappBtn.style.boxShadow = '0 8px 32px rgba(31, 58, 77, 0.2)';
     });
-    
+
     document.body.appendChild(whatsappBtn);
 }
 
