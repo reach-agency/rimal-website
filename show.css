@@ -1,0 +1,309 @@
+/**
+ * ==================== Show Page Specific Styles ====================
+ * 
+ * This file contains CSS styles specific to the show.html page.
+ * These styles extend and enhance the base styles from styles.css.
+ * 
+ * Dependencies:
+ * - styles.css (must be loaded before this file)
+ * 
+ * Usage:
+ * - Include this file after styles.css in show.html
+ * - Add 'show-page' class to body element in show.html
+ */
+
+/* ==================== Show Page Specific Styles ==================== */
+
+/* Project Details Section Enhancements */
+#project-details .about-content {
+    gap: 80px;
+}
+
+#project-details .about-text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--navy-blue);
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#project-details .about-text h3:first-child {
+    margin-top: 0;
+}
+
+#project-details .about-text p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: var(--dark-gray);
+}
+
+/* Project Features Grid */
+#project-details .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+#project-details .value-card {
+    background: var(--white);
+    border: 2px solid var(--light-gray);
+    transition: var(--transition-normal);
+}
+
+#project-details .value-card:hover {
+    border-color: var(--aqua-blue);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Specifications Section */
+#specifications {
+    background: var(--white);
+}
+
+#specifications .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+}
+
+#specifications .service-card {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#specifications .service-card .service-icon {
+    margin-bottom: 30px;
+}
+
+#specifications .service-card h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#specifications .service-card p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+#specifications .service-features {
+    margin-top: auto;
+}
+
+#specifications .service-features li {
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+/* Project Image Enhancements */
+#project-details .about-image {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+#project-details .image-wrapper {
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+}
+
+#project-details .image-wrapper img {
+    transition: var(--transition-slow);
+}
+
+#project-details .image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+/* Show Page Hero Adjustments */
+.show-hero .hero-content {
+    padding-top: 80px;
+}
+
+/* Section Spacing for Show Page */
+.show-page section {
+    padding: 80px 0;
+}
+
+.show-page section:first-of-type {
+    padding-top: 120px;
+}
+
+/* Project Details Typography */
+#project-details .about-text {
+    max-width: 100%;
+}
+
+#project-details .about-text h3 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#project-details .about-text h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--gradient-primary);
+    border-radius: 2px;
+}
+
+/* Enhanced Value Cards for Show Page */
+#project-details .value-card .value-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
+}
+
+#project-details .value-card .value-icon i {
+    font-size: 28px;
+}
+
+#project-details .value-card h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+#project-details .value-card p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Specifications Cards Hover Effects */
+#specifications .service-card:hover {
+    transform: translateY(-10px);
+}
+
+#specifications .service-card:hover .service-icon {
+    transform: rotate(5deg) scale(1.1);
+}
+
+/* Gallery Section on Show Page */
+.show-page #gallery {
+    background: var(--light-gray);
+}
+
+/* Contact Section on Show Page */
+.show-page #contact {
+    background: var(--white);
+}
+
+/* Responsive Design for Show Page */
+@media (max-width: 1024px) {
+    #project-details .about-content {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+    #project-details .about-image {
+        position: relative;
+        top: 0;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    #project-details .values-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    #specifications .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    #project-details .about-text h3 {
+        font-size: 26px;
+    }
+    
+    #project-details .values-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    #specifications .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #specifications .service-card {
+        min-height: auto;
+    }
+    
+    .show-page section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #project-details .about-text h3 {
+        font-size: 22px;
+    }
+    
+    #project-details .value-card {
+        padding: 20px;
+    }
+    
+    #specifications .service-card {
+        padding: 30px 20px;
+    }
+}
+
+/* Animation for Show Page Elements */
+@keyframes fadeInUpShow {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.show-page .fade-in-show {
+    animation: fadeInUpShow 0.8s ease forwards;
+}
+
+/* Project Details Section Background Pattern */
+#project-details::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 20% 30%, rgba(78, 195, 224, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(78, 195, 224, 0.03) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+#project-details .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Specifications Section Background */
+#specifications::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(245, 247, 250, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+#specifications .container {
+    position: relative;
+    z-index: 1;
+}
+
